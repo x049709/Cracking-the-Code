@@ -3,7 +3,7 @@ package Q1_09_String_Rotation;
 /**
  * @author armibayudan
  * Create a string that is a concatenation of the main string (eg for 'apple' create 'appleapple'
- * THen do a substring on the combined string 
+ * Then do a substring on the combined string 
  *
  */
 public class Question {
