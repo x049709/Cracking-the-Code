@@ -6,7 +6,7 @@ public class Tester {
 		String[] words = {"abcde", "hello", "apple", "kite", "padle"};
 		for (String word : words) {
 			boolean wordA =  QuestionA.isUniqueChars(word);
-			boolean wordB =  QuestionB.isUniqueChars(word);
+			boolean wordB =  QuestionC.isUniqueChars(word);
 			if (wordA == wordB) {
 				System.out.println(word + ": " + wordA);
 			} else {

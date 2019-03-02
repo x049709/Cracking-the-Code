@@ -8,6 +8,7 @@ public class Tester {
 							"A man, a plan, a canal, panama",
 							"Lleve",
 							"Tacotac",
+							"Lleveaaaa",
 							"asda"};
 		for (String s : strings) {
 			boolean a = QuestionA.isPermutationOfPalindrome(s);
