@@ -35,8 +35,10 @@ public class QuestionB {
 	 * Then push the 'tmp' element to the second stack
 	 * Follow this for the rest of the elements in the original stack
 	 * 
-	 * The idea is to set aside an element from the original stack and insert it in the second stack, 
-	 * the smallest being at the bottom
+	 * The idea is to pop and set aside an element from the original stack, pop all elements from
+	 * the second stack which are greater than the 'set aside' element and put them back into the original stack,
+	 * then insert the 'set aside' element in the second stack
+	 * This exercise will sort force the second stack to sort the elements with the smallest being at the bottom
 	 * 
 	 * Then you can put everything back in the original stack, with the largest going to the bottom
 	 * 
